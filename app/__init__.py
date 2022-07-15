@@ -1,3 +1,4 @@
+''' Starting point for application run'''
 from flask import Flask, render_template, url_for
 app = Flask(__name__)
 
@@ -19,9 +20,11 @@ posts = [
 
 @app.route("/")
 def home():
+    '''Home page Function'''
     return render_template('home.html', posts=posts)
 
 
 @app.route("/about")
 def about():
+    '''Detail Function'''
     return render_template('about.html', title='About')
