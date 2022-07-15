@@ -1,2 +1,0 @@
-# flaskblog
-Creating blog 
