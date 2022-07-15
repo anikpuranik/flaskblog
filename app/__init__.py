@@ -3,16 +3,16 @@ app = Flask(__name__)
 
 posts = [
     {
-        'author': 'Corey Schafer',
-        'title': 'Blog Post 1',
-        'content': 'First post content',
-        'date_posted': 'April 20, 2018'
+        'author': 'Aniket Puranik',
+        'title': 'Am I a Billionare?',
+        'content': 'Do I need to become this?',
+        'date_posted': 'Sept 19, 2024'
     },
     {
-        'author': 'Jane Doe',
-        'title': 'Blog Post 2',
-        'content': 'Second post content',
-        'date_posted': 'April 21, 2018'
+        'author': 'Aniket Puranik',
+        'title': 'How I became Billionare?',
+        'content': 'Target acheived of becoming a billionare before 30',
+        'date_posted': 'Sept 20, 2024'
     }
 ]
 
