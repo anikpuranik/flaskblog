@@ -5,13 +5,13 @@ app = Flask(__name__)
 posts = [
     {
         'author': 'Aniket Puranik',
-        'title': 'Am I a Billionare?',
+        'title': 'I will become a Billionare?',
         'content': 'Do I need to become this?',
         'date_posted': 'Sept 19, 2024'
     },
     {
         'author': 'Aniket Puranik',
-        'title': 'How I became Billionare?',
+        'title': 'How I became Billionare',
         'content': 'Target acheived of becoming a billionare before 30',
         'date_posted': 'Sept 20, 2024'
     }
